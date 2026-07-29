@@ -168,3 +168,18 @@ nav ul li a:hover{
     margin-bottom:40px;
     color:#0F5132;
 }
+.hero-buttons{
+    margin-top:35px;
+}
+
+.secondary-btn{
+    margin-left:15px;
+    background:#ffffff;
+    color:#0F5132;
+    border:2px solid #ffffff;
+}
+
+.secondary-btn:hover{
+    background:#FFD700;
+    color:#000;
+}
