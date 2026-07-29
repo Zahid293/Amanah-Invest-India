@@ -1,1 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Registration - Amanah Invest India</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .register-container{
+            width:90%;
+            max-width:900px;
+            margin:50px auto;
+            background:#fff;
+            padding:40px;
+            border-radius:12px;
+            box-shadow:0 5px 20px rgba(0,0,0,.1);
+        }
+
+        .register-container h1{
+            text-align:center;
+            color:#0F5132;
+            margin-bottom:10px;
+        }
+
+        .register-container p{
+            text-align:center;
+            color:#666;
+            margin-bottom:35px;
+        }
+
+        .form-group{
+            margin-bottom:20px;
+        }
+
+        label{
+            display:block;
+            font-weight:bold;
+            margin-bottom:8px;
+        }
+
+        input,
+        select{
+            width:100%;
+            padding:12px;
+            border:1px solid #ccc;
+            border-radius:6px;
+            font-size:16px;
+        }
+
+        .row{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:20px;
+        }
+
+        @media(max-width:768px){
+            .row{
+                grid-template-columns:1fr;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+<h2>Amanah Invest India</h2>
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<div class="register-container">
+
+<h1>Create Your Account</h1>
+
+<p>
+Register as an Investor or Project Developer.
+</p>
+
+<form>
+
+<div class="row">
+
+<div class="form-group">
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name">
+</div>
+
+<div class="form-group">
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email">
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="form-group">
+<label>Mobile Number</label>
+<input type="tel" placeholder="+91">
+</div>
+
+<div class="form-group">
+<label>Date of Birth</label>
+<input type="date">
+</div>
+
+</div>
+<div class="row">
+
+<div class="form-group">
+<label>City</label>
+<input type="text" placeholder="Enter your city">
+</div>
+
+<div class="form-group">
+<label>State / UT</label>
+<input type="text" placeholder="Enter your State or Union Territory">
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="form-group">
+<label>Country</label>
+<input type="text" value="India">
+</div>
+
+<div class="form-group">
+<label>Register As</label>
+
+<select>
+<option>Investor</option>
+<option>Project Developer</option>
+</select>
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="form-group">
+<label>Identity Type</label>
+
+<select>
+<option>Aadhaar</option>
+<option>Passport</option>
+<option>Driving Licence</option>
+<option>Voter ID</option>
+</select>
+
+</div>
+
+<div class="form-group">
+<label>Identity Number</label>
+<input type="text" placeholder="Enter ID Number">
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="form-group">
+<label>Occupation</label>
+<input type="text" placeholder="Your occupation">
+</div>
+
+<div class="form-group">
+<label>Annual Income</label>
+
+<select>
+<option>Below ₹5 Lakh</option>
+<option>₹5–10 Lakh</option>
+<option>₹10–25 Lakh</option>
+<option>Above ₹25 Lakh</option>
+</select>
+
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label>Investment Experience</label>
+
+<select>
+<option>Beginner</option>
+<option>Intermediate</option>
+<option>Experienced</option>
+</select>
+
+</div>
+<div class="row">
+
+<div class="form-group">
+<label>Create Password</label>
+<input type="password" placeholder="Enter password">
+</div>
+
+<div class="form-group">
+<label>Confirm Password</label>
+<input type="password" placeholder="Confirm password">
+</div>
+
+</div>
+
+<div class="form-group">
+
+<label>Preferred Investment Category</label>
+
+<select>
+
+<option>Commercial Buildings</option>
+
+<option>Shopping Malls</option>
+
+<option>Agriculture</option>
+
+<option>Healthcare</option>
+
+<option>Education</option>
+
+<option>Warehousing</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+
+<input type="checkbox">
+
+I agree to the Terms & Conditions.
+
+</div>
+
+<div class="form-group">
+
+<input type="checkbox">
+
+I agree to the Privacy Policy.
+
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+
+<button class="btn" type="submit">
+
+Create Investor Account
+
+</button>
+
+</div>
+</form>
+
+</div>
+
+<footer>
+
+<p>
+
+© 2026 Amanah Invest India. All Rights Reserved.
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
