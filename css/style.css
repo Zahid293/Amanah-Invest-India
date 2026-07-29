@@ -133,3 +133,28 @@ footer{
     line-height:1.6;
     color:#666;
 }
+.featured-projects{
+    padding:80px 8%;
+    background:#ffffff;
+}
+
+.featured-projects h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0F5132;
+}
+
+.btn:hover{
+    background:#e6c200;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#FFD700;
+    transition:0.3s;
+}
+
+.card h3{
+    color:#0F5132;
+    margin-bottom:15px;
+}
